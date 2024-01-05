@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app using </title>
+    <link rel="stylesheet" href="./css/all.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body class="bg-dark">
+    <header>
+       <div class="bg-dark">
+        <div class="container text-center pt-3 content">
+<img src="img/logo@2x.png">
+            <h1 class="text-primary">Weather app using </h1>
+          
+        </div>
+       </div>
+    </header>
+    <i class="fa-solid fa-location-dot position-fixed end-0 top-0 mt-5 me-2 fs-3" id="locate"></i>
+        <section class="container my-5">
+            <input  placeholder="Find your location..." type="text" class="form-control my-3 fw-bold fs-5 rounded-3" id="search">
+           
+            <div id="location" class="text-center my-2 text-light fs-3 fw-bold "></div>
+          
+             <div class="" id="weatherData">
+               
+             </div>
+        </section>
+        
+        <section class="container">
+            <div class="table-content">
+                <table class="table text-light text-center   table-hover">
+                    <thead>
+                        <tr>
+                            <th class="text-muted">Day</th>
+                            <th class="text-muted">Max-temp</th>
+                            <th class="text-muted">Min-temp</th>
+                            <th class="text-muted">Condition</th>
+                            <th class="text-muted">Icon</th>
+                          
+                        </tr>
+                    </thead>
+                    
+                    <tbody id="tbody">
+                         
+                    </tbody>
+                   
+                </table>
+             </div>
+        </section>
+    
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
